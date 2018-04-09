@@ -1,0 +1,79 @@
+2018-01-24 11:23:40.180 - DBeaver 4.3.3.1 is starting
+2018-01-24 11:23:40.182 - Install path: '/Applications/DBeaver.app/Contents/Eclipse'
+2018-01-24 11:23:40.183 - Instance path: 'file:/Users/sergey.mazurov/.dbeaver4/'
+2018-01-24 11:23:40.184 - Memory available 109Mb/910Mb
+2018-01-24 11:23:40.218 - Starting RMI server at 27716
+2018-01-24 11:23:40.286 - Run workbench
+2018-01-24 11:23:43.353 - Initializing DBeaver 4.3.3.1
+2018-01-24 11:23:43.360 - Host plugin: org.jkiss.dbeaver.core.application 4.3.3.1
+2018-01-24 11:23:43.364 - Initialize Core...
+2018-01-24 11:23:43.666 - Core initialized (302ms)
+2018-01-24 11:23:43.669 - Configure workbench window
+2018-01-24 11:23:43.790 - Create actions
+2018-01-24 11:23:43.795 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2018-01-24 11:23:43.799 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+2018-01-24 11:23:44.763 - Initialize workbench window
+2018-01-24 11:23:44.777 - Finish initialization
+2018-01-24 11:23:47.627 - Connect with 'sergeymazurov-01.pgsql96.qa.lamoda.tech' (postgres-jdbc-15e4c5cd56a-eff7e490f2dea16)
+2018-01-24 11:23:48.124 - Connected (postgres-jdbc-15e4c5cd56a-eff7e490f2dea16, PostgreSQL Native Driver [PostgreSQL 9.4.1212.jre7])
+2018-01-24 16:49:48.838 - Connect with 'express01.qa.akado' (mysql5-15d36f52d4d-7ac9723edbc786e9)
+2018-01-24 16:49:49.363 - Connected (mysql5-15d36f52d4d-7ac9723edbc786e9, MySQL Connector Java [mysql-connector-java-5.1.39 ( Revision: 3289a357af6d09ecc1a10fd3c26e95183e5790ad )])
+2018-01-24 16:49:50.923 - Connect with 'express02.qa.akado' (mysql5-15d41c0de49-1f37919801fd68d1)
+2018-01-24 16:49:51.045 - Connected (mysql5-15d41c0de49-1f37919801fd68d1, MySQL Connector Java [mysql-connector-java-5.1.39 ( Revision: 3289a357af6d09ecc1a10fd3c26e95183e5790ad )])
+2018-01-24 17:11:03.686 - Delete empty SQL script '/General/Scripts/Script-1.sql'
+2018-01-24 17:16:49.541 - null
+org.jkiss.dbeaver.model.exec.DBCException: SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'id = 1969' at line 2
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:141)
+	at org.jkiss.dbeaver.model.impl.jdbc.struct.JDBCTable.readData(JDBCTable.java:181)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:92)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:95)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'id = 1969' at line 2
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.Util.getInstance(Util.java:387)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:942)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3966)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3902)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2526)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2673)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2545)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2503)
+	at com.mysql.jdbc.StatementImpl.executeInternal(StatementImpl.java:839)
+	at com.mysql.jdbc.StatementImpl.execute(StatementImpl.java:739)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:345)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:138)
+	... 4 more
+2018-01-24 17:17:36.696 - null
+org.jkiss.dbeaver.model.exec.DBCException: SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0, 200' at line 3
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:141)
+	at org.jkiss.dbeaver.model.impl.jdbc.struct.JDBCTable.readData(JDBCTable.java:181)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:92)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:95)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0, 200' at line 3
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.Util.getInstance(Util.java:387)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:942)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3966)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3902)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2526)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2673)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2545)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2503)
+	at com.mysql.jdbc.StatementImpl.executeInternal(StatementImpl.java:839)
+	at com.mysql.jdbc.StatementImpl.execute(StatementImpl.java:739)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:345)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:138)
+	... 4 more
+2018-01-24 20:07:20.469 - Connect with 'express03.qa.akado' (mysql5-15d41c1b9c2-784c81d785d54326)
+2018-01-24 20:07:20.551 - Connected (mysql5-15d41c1b9c2-784c81d785d54326, MySQL Connector Java [mysql-connector-java-5.1.39 ( Revision: 3289a357af6d09ecc1a10fd3c26e95183e5790ad )])
+2018-01-25 08:35:24.473 - DBeaver is stopping
+2018-01-25 08:35:24.474 - Stop RMI server

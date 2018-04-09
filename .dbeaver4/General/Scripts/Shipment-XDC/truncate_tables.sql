@@ -1,0 +1,1 @@
+TRUNCATE xdc_log, exchange_log, shipment_order_item, shipment_order_pack, shipment_order_address, order_status_history, shipment_order, shipment, pack_status_history, order_status_history, item_status_history CASCADE;

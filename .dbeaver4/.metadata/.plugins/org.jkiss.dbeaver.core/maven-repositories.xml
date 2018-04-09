@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<maven>
+	<repository id="maven-central" order="0" enabled="true"/>
+	<repository id="exasol-maven-repo" order="1" enabled="true"/>
+	<repository id="maven-central-unsecure" order="2" enabled="true"/>
+</maven>

@@ -1,0 +1,16 @@
+#!/usr/local/bin/bash
+
+## 495_process_substitution.sh
+## pro-sub: demo of process substitution
+
+while read attr links owner group size date time filename; do
+	cat <<- EOF
+	Filename: $filename
+	Size: $size
+	Owner: $owner
+	Group: $group
+	Modified: $date $time
+	Links: $links
+	Attributes: $attr
+	EOF
+done < <(ls -l | tail -n +2) # substitute command group output to the loop

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<types>
+	<type id="dev" name="Development" color="255,255,255" description="Regular development database" autocommit="true" confirmExecute="false"/>
+	<type id="test" name="Test" color="196,255,181" description="Test (QA) database" autocommit="true" confirmExecute="false"/>
+	<type id="prod" name="Production" color="247,159,129" description="Production database" autocommit="false" confirmExecute="true"/>
+</types>

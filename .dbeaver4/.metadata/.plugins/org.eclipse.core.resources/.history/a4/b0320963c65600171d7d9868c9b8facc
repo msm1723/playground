@@ -1,0 +1,4 @@
+SELECT id, created_at, logger_name, body, orders, packs
+FROM view_exchange_log
+WHERE created_at > '2017-06-21 17:44:00' AND body LIKE '%%'
+ORDER BY id DESC;

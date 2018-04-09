@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="DBeaver.FilterValueEditMenu">
+		<item value="424" key="DIALOG_WIDTH"/>
+		<item value="1|.AppleSystemUIFont|13.0|0|COCOA|1|.AppleSystemUIFont" key="DIALOG_FONT_NAME"/>
+		<item value="395" key="DIALOG_HEIGHT"/>
+		<item value="575" key="DIALOG_X_ORIGIN"/>
+		<item value="138" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="DriverDownload">
+	</section>
+	<section name="DBeaver.StatusDetailsDialog">
+		<item value="341" key="DIALOG_WIDTH"/>
+		<item value="1|.SF NS Text|13.0|0|COCOA|1|.SFNSText" key="DIALOG_FONT_NAME"/>
+		<item value="236" key="DIALOG_HEIGHT"/>
+		<item value="452" key="DIALOG_X_ORIGIN"/>
+		<item value="232" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="CompareWizard">
+		<item value="true" key="skipSystem"/>
+		<item value="false" key="compareLazy"/>
+		<item value="false" key="showDifference"/>
+		<item value="false" key="compareStructure"/>
+		<item value="BROWSER" key="outputType"/>
+		<item value="/Users/sergey.mazurov/db_dumps/smazurov.linux-pgsql01" key="outputFolder"/>
+	</section>
+	<section name="DBeaver.SelectDataSourceDialog">
+		<item value="380" key="DIALOG_WIDTH"/>
+		<item value="1|.AppleSystemUIFont|13.0|0|COCOA|1|.AppleSystemUIFont" key="DIALOG_FONT_NAME"/>
+		<item value="660" key="DIALOG_HEIGHT"/>
+		<item value="false" key="showConnected"/>
+		<item value="76" key="DIALOG_X_ORIGIN"/>
+		<item value="57" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="DBeaver.ActiveWizardDialog.CompareObjectsWizard">
+		<item value="613" key="DIALOG_WIDTH"/>
+		<item value="1|.SF NS Text|13.0|0|COCOA|1|.SFNSText" key="DIALOG_FONT_NAME"/>
+		<item value="425" key="DIALOG_HEIGHT"/>
+		<item value="313" key="DIALOG_X_ORIGIN"/>
+		<item value="106" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="DBeaver.ViewSQLDialog">
+		<item value="524" key="DIALOG_WIDTH"/>
+		<item value="1|.AppleSystemUIFont|13.0|0|COCOA|1|.AppleSystemUIFont" key="DIALOG_FONT_NAME"/>
+		<item value="510" key="DIALOG_HEIGHT"/>
+		<item value="360" key="DIALOG_X_ORIGIN"/>
+		<item value="49" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="DBeaver.EditConnectionDialog">
+		<item value="729" key="DIALOG_WIDTH"/>
+		<item value="1|.AppleSystemUIFont|13.0|0|COCOA|1|.AppleSystemUIFont" key="DIALOG_FONT_NAME"/>
+		<item value="515" key="DIALOG_HEIGHT"/>
+		<item value="117" key="DIALOG_X_ORIGIN"/>
+		<item value="90" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="DBeaver.ScriptSelectorPanel">
+		<item value="-580,-778,706,463" key="bounds"/>
+	</section>
+	<section name="DBeaver.QM.LoigViewer">
+	</section>
+	<section name="DataTransfer">
+		<item value="1" key="maxJobCount"/>
+		<item value="database_producer" key="producer"/>
+		<section name="DatabaseTransferConsumer">
+			<item value="true" key="openTableOnFinish"/>
+			<item value="true" key="useTransactions"/>
+			<item value="10000" key="commitAfterRows"/>
+			<item value="true" key="openNewConnections"/>
+		</section>
+		<section name="DatabaseTransferProducer">
+			<item value="100000" key="segmentSize"/>
+			<item value="true" key="openNewConnections"/>
+			<item value="true" key="queryRowCount"/>
+			<item value="SINGLE_QUERY" key="extractType"/>
+		</section>
+		<section name="StreamTransferConsumer">
+			<item value="" key="finishProcessCommand"/>
+			<item value="true" key="outputEncodingBOM"/>
+			<item value="UTF-8" key="outputEncoding"/>
+			<item value="false" key="compressResults"/>
+			<item value="true" key="openFolderOnFinish"/>
+			<item value="${table}_${timestamp}" key="outputFilePattern"/>
+			<item value="false" key="outputClipboard"/>
+			<item value="false" key="executeProcessOnFinish"/>
+			<item value="" key="formatterProfile"/>
+			<item value="HEX" key="lobEncoding"/>
+			<item value="/Users/sergey.mazurov" key="outputFolder"/>
+			<item value="SKIP" key="lobExtractType"/>
+		</section>
+		<section name="processors">
+		</section>
+	</section>
+	<section name="DBeaver.SelectObjectDialog">
+		<item value="324" key="DIALOG_WIDTH"/>
+		<item value="1|.AppleSystemUIFont|13.0|0|COCOA|1|.AppleSystemUIFont" key="DIALOG_FONT_NAME"/>
+		<item value="410" key="DIALOG_HEIGHT"/>
+		<item value="1047" key="DIALOG_X_ORIGIN"/>
+		<item value="436" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="DBeaver.ActiveWizardDialog.NewConnectionWizard">
+		<item value="663" key="DIALOG_WIDTH"/>
+		<item value="1|.AppleSystemUIFont|13.0|0|COCOA|1|.AppleSystemUIFont" key="DIALOG_FONT_NAME"/>
+		<item value="656" key="DIALOG_HEIGHT"/>
+		<item value="369" key="DIALOG_X_ORIGIN"/>
+		<item value="85" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="DBeaver.DriverDownloadDialog">
+		<item value="613" key="DIALOG_WIDTH"/>
+		<item value="1|.AppleSystemUIFont|13.0|0|COCOA|1|.AppleSystemUIFont" key="DIALOG_FONT_NAME"/>
+		<item value="514" key="DIALOG_HEIGHT"/>
+		<item value="0" key="DIALOG_X_ORIGIN"/>
+		<item value="0" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="DBeaver.SQLTargetFormatDialog">
+		<item value="350" key="DIALOG_WIDTH"/>
+		<item value="1|.SF NS Text|13.0|0|COCOA|1|.SFNSText" key="DIALOG_FONT_NAME"/>
+		<item value="414" key="DIALOG_HEIGHT"/>
+		<item value="447" key="DIALOG_X_ORIGIN"/>
+		<item value="113" key="DIALOG_Y_ORIGIN"/>
+		<section name="unformatted">
+		</section>
+	</section>
+	<section name="DBeaver.FilterValueEditDialog.EQUALS">
+		<item value="359" key="DIALOG_WIDTH"/>
+		<item value="1|.SF NS Text|13.0|0|COCOA|1|.SFNSText" key="DIALOG_FONT_NAME"/>
+		<item value="156" key="DIALOG_HEIGHT"/>
+		<item value="910" key="DIALOG_X_ORIGIN"/>
+		<item value="580" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="DBeaver.AutoRefreshConfigDialog">
+		<item value="258" key="DIALOG_WIDTH"/>
+		<item value="1|.SF NS Text|13.0|0|COCOA|1|.SFNSText" key="DIALOG_FONT_NAME"/>
+		<item value="197" key="DIALOG_HEIGHT"/>
+		<item value="493" key="DIALOG_X_ORIGIN"/>
+		<item value="258" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="DBeaver.ActiveWizardDialog.PostgreBackupWizard">
+		<item value="613" key="DIALOG_WIDTH"/>
+		<item value="1|.SF NS Text|13.0|0|COCOA|1|.SFNSText" key="DIALOG_FONT_NAME"/>
+		<item value="509" key="DIALOG_HEIGHT"/>
+		<item value="315" key="DIALOG_X_ORIGIN"/>
+		<item value="50" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="DBeaver.ActiveWizardDialog.DataTransferWizard">
+		<item value="613" key="DIALOG_WIDTH"/>
+		<item value="1|.SF NS Text|13.0|0|COCOA|1|.SFNSText" key="DIALOG_FONT_NAME"/>
+		<item value="472" key="DIALOG_HEIGHT"/>
+		<item value="315" key="DIALOG_X_ORIGIN"/>
+		<item value="75" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="DBeaver.EnterNameDialog">
+		<item value="245" key="DIALOG_WIDTH"/>
+		<item value="1|.AppleSystemUIFont|13.0|0|COCOA|1|.AppleSystemUIFont" key="DIALOG_FONT_NAME"/>
+		<item value="144" key="DIALOG_HEIGHT"/>
+		<item value="1035" key="DIALOG_X_ORIGIN"/>
+		<item value="538" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="DBeaver.SelectObjectDialog.SchemaSelector">
+		<item value="324" key="DIALOG_WIDTH"/>
+		<item value="1|.AppleSystemUIFont|13.0|0|COCOA|1|.AppleSystemUIFont" key="DIALOG_FONT_NAME"/>
+		<item value="350" key="DIALOG_HEIGHT"/>
+		<item value="594" key="DIALOG_X_ORIGIN"/>
+		<item value="268" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="DBeaver.TransactionLogDialog">
+		<item value="961" key="DIALOG_WIDTH"/>
+		<item value="1|.AppleSystemUIFont|13.0|0|COCOA|1|.AppleSystemUIFont" key="DIALOG_FONT_NAME"/>
+		<item value="286" key="DIALOG_HEIGHT"/>
+		<item value="142" key="DIALOG_X_ORIGIN"/>
+		<item value="199" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="GenerateMultiSQLDialog">
+		<item value="359" key="DIALOG_WIDTH"/>
+		<item value="1|.SF NS Text|13.0|0|COCOA|1|.SFNSText" key="DIALOG_FONT_NAME"/>
+		<item value="365" key="DIALOG_HEIGHT"/>
+		<item value="442" key="DIALOG_X_ORIGIN"/>
+		<item value="146" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="DBeaver.DriverEditDialog">
+		<item value="500" key="DIALOG_WIDTH"/>
+		<item value="1|.SF NS Text|13.0|0|COCOA|1|.SFNSText" key="DIALOG_FONT_NAME"/>
+		<item value="699" key="DIALOG_HEIGHT"/>
+		<item value="0" key="DIALOG_X_ORIGIN"/>
+		<item value="0" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="ValueViewDialog">
+		<item value="516:864" key="TextViewDialog-varchar-dialogSize"/>
+		<item value="473:590" key="TextViewDialog-VARCHAR-dialogSize"/>
+		<item value="359:389" key="DateTimeStandaloneEditor-timestamp-dialogSize"/>
+		<item value="359:527" key="DefaultValueViewDialog-int-dialogSize"/>
+		<item value="359:401" key="DefaultValueViewDialog-TINYINT-dialogSize"/>
+		<item value="0" key="string.value.type"/>
+	</section>
+	<section name="AdvanceCopySettings">
+		<item value="true" key="copyHeader"/>
+		<item value="&#x0A;" key="rowDelimiter"/>
+		<item value="true" key="quoteCells"/>
+		<item value="&#x09;" key="delimiter"/>
+		<item value="false" key="copyRows"/>
+		<item value="UI" key="format"/>
+	</section>
+	<section name="DBeaver.QM.LogViewer">
+	</section>
+	<section name="DBeaver.DriverManagerDialog">
+		<item value="434" key="DIALOG_WIDTH"/>
+		<item value="1|.AppleSystemUIFont|13.0|0|COCOA|1|.AppleSystemUIFont" key="DIALOG_FONT_NAME"/>
+		<item value="431" key="DIALOG_HEIGHT"/>
+		<item value="273" key="DIALOG_X_ORIGIN"/>
+		<item value="221" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="DBeaver.ActiveWizardDialog.ProjectCreateWizard">
+		<item value="613" key="DIALOG_WIDTH"/>
+		<item value="1|.AppleSystemUIFont|13.0|0|COCOA|1|.AppleSystemUIFont" key="DIALOG_FONT_NAME"/>
+		<item value="456" key="DIALOG_HEIGHT"/>
+		<item value="974" key="DIALOG_X_ORIGIN"/>
+		<item value="405" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="ResultSetViewer">
+		<section name="panel-column-aggregate">
+			<item value="false" key="groupByColumns"/>
+			<section name="functions">
+				<section name="mode">
+					<item value="-1" key="index"/>
+					<item value="false" key="enabled"/>
+				</section>
+				<section name="countDistinct">
+					<item value="1" key="index"/>
+					<item value="true" key="enabled"/>
+				</section>
+				<section name="avg">
+					<item value="-1" key="index"/>
+					<item value="false" key="enabled"/>
+				</section>
+				<section name="min">
+					<item value="-1" key="index"/>
+					<item value="false" key="enabled"/>
+				</section>
+				<section name="median">
+					<item value="-1" key="index"/>
+					<item value="false" key="enabled"/>
+				</section>
+				<section name="max">
+					<item value="-1" key="index"/>
+					<item value="false" key="enabled"/>
+				</section>
+				<section name="count">
+					<item value="0" key="index"/>
+					<item value="true" key="enabled"/>
+				</section>
+				<section name="sum">
+					<item value="-1" key="index"/>
+					<item value="false" key="enabled"/>
+				</section>
+			</section>
+		</section>
+		<section name="autoRefresh">
+		</section>
+		<section name="panel-value-view">
+		</section>
+		<section name="presentations">
+			<section name="spreadsheet">
+				<item value="value-view,column-aggregate" key="enabledPanelIds"/>
+				<item value="true" key="panelsVisible"/>
+				<item value="300" key="panelRatio"/>
+				<item value="value-view" key="activePanelId"/>
+			</section>
+			<section name="plaintext">
+				<item value="value-view" key="enabledPanelIds"/>
+				<item value="false" key="panelsVisible"/>
+				<item value="0" key="panelRatio"/>
+				<item value="value-view" key="activePanelId"/>
+			</section>
+		</section>
+	</section>
+	<section name="DBeaver.FilterSettingsDialog">
+		<item value="287" key="DIALOG_WIDTH"/>
+		<item value="1|.SF NS Text|13.0|0|COCOA|1|.SFNSText" key="DIALOG_FONT_NAME"/>
+		<item value="496" key="DIALOG_HEIGHT"/>
+		<item value="478" key="DIALOG_X_ORIGIN"/>
+		<item value="59" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>
