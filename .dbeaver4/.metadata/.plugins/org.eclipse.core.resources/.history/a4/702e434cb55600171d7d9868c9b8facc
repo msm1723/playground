@@ -1,4 +1,0 @@
-SELECT id, created_at, logger_name, body, orders, packs
-FROM view_exchange_log
-WHERE id > '46596' AND body LIKE '%hermes%'
-ORDER BY id DESC;

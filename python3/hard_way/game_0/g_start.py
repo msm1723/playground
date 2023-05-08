@@ -1,3 +1,0 @@
-from point import *
-
-menu()

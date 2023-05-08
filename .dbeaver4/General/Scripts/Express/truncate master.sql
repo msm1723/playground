@@ -1,1 +1,0 @@
-truncate actions, api_log, orders, queues, revisions, shipments;
